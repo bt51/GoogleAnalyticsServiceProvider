@@ -1,0 +1,27 @@
+{
+	"name": "bt51/markdown-serviceprovider",
+	"keywords": ["silex", "extension", "silex-extension", "google analytics"],
+	"type": "library",
+	"license": "MIT",
+	"description": "Google Analytics service provider for silex",
+	"authors": [
+		{
+			"name": "Ben Tollakson",
+			"email": "ben.tollakson@gmail.com"
+		}
+	],
+	"version": "master",
+	"require": {
+		"php": ">=5.3.2",
+		"twig/twig": ">=1.2.0"
+	},
+	"require-dev": {
+        "silex/silex": "1.0.x-dev"
+    },
+	"autoload": {
+		"psr-0": {
+			"Bt51\\Silex\\Provider\\GoogleAnalyticsServiceProvider": "src/"
+		}
+	},
+	"minimum-stability": "dev"
+}
