@@ -1,5 +1,5 @@
 {
-	"name": "bt51/markdown-serviceprovider",
+	"name": "bt51/googleanalytics-serviceprovider",
 	"keywords": ["silex", "extension", "silex-extension", "google analytics"],
 	"type": "library",
 	"license": "MIT",
@@ -10,7 +10,7 @@
 			"email": "ben.tollakson@gmail.com"
 		}
 	],
-	"version": "1.0",
+	"version": "master",
 	"require": {
 		"php": ">=5.3.2",
 		"twig/twig": ">=1.2.0"
