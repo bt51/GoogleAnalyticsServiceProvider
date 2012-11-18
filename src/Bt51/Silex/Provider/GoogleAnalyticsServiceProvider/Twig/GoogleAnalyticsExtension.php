@@ -23,7 +23,7 @@ class GoogleAnalyticsExtension extends \Twig_Extension
         $this->code = $code;
     }
     
-    public function getFilters()
+    public function getFunctions()
     {
         return array('ga' => new \Twig_Function_Method($this,
                                                        'getGa',
